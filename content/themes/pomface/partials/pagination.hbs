@@ -1,0 +1,12 @@
+<nav class="blog-nav">
+  {{#if prev}}
+    <a href="{{pageUrl prev}}" class="button button--previous">
+      <span class="ss-navigateleft"></span> Older Posts
+    </a>
+  {{/if}}
+  {{#if next}}
+    <a href="{{pageUrl next}}" class="button button--primary button--next">
+      Newer Posts <span class="ss-navigateright"></span>
+    </a>
+  {{/if}}
+</nav>
